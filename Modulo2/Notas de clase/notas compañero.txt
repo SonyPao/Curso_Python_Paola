@@ -1,0 +1,24 @@
+#Para implementar while
+
+
+
+a=float(input("primer coeficiente"))
+
+b=float(input("segundo coeficiente"))
+c=float(input("tercer coeficiente"))
+disc=(b**2)-(4*a)*c
+print(disc)
+
+
+if disc > 0:
+    print("dos soluciones distintas")
+    x1=(-b+((b*2)-(4*a*c))*(1/2))/(2*a)
+    x2=(-b-((b*2)-(4*a*c))*(1/2))/(2*a)
+    print ("solucion valor 1: " ,x1,)
+    print ("solucion valor 2: " ,x2,)
+elif disc == 0:
+    x=(-b)/(2*a))
+    print("Una solucion doble")
+    print ("solucion doble valor : " ,x,)
+elif disc <0:
+    print("No tiene solucion real")

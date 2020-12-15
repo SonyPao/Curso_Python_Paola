@@ -1,0 +1,43 @@
+modulo2
+tema1
+--Ejercicio2
+
+q=int(input("ingrese la cantidad de #s: "))
+
+nums=[]
+v=1
+for elem in range(v,q+1):
+    nums.append(v*("#"))
+    v=v+1
+print (nums) 
+for b in (nums):
+    print (b)
+a=int(input("Escribe un numero entero: "))
+
+if a%2==0:
+    print("es un numero entero")
+else:
+    print("es un numero primo")
+
+--Ejercico3
+
+primo = True
+for n in range(2, numero, 1):
+    if numero % n ==0:
+        primo = False
+        break
+if primo:
+    print(f'el numero: {numero} es primo')
+else:
+    print(f'el numero: {numero} no es primo')
+
+--Ejercicio4
+
+lista_1 = ["h",'o','l','a',' ', 'm','u','n','d','o']
+lista_2 = ["h",'o','l','a',' ', 'l','u','n','a']
+l1=set(lista_1)
+l2=set(lista_2)
+print (l1)
+print (l2)
+
+
